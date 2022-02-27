@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: #9B2335;
+    font-family: Arial;
+}
+.reddit-search{
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
+}
+.reddit-search input{
+    padding: 10px 60px;
+    margin-bottom: 40px;
+    font-size: 17px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+}
+.reddit-search button{
+    padding: 10px 40px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    letter-spacing: 2px;
+    border-radius: 10px;
+}
+.reddit-search button:hover{
+    background-color: #C590AE;
+    transition: 0.4s ease;
+}
+.reddit-res-h1{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;  
+    letter-spacing: 2px;  
+    color: white;
+}
+.reddit-posts{    
+    font-size: 18px;      
+    margin-bottom: 10px;    
+}
+.reddit-posts a{
+    color:white;
+    text-decoration: none;  
+    padding: 5px 20px;       
+}
+.reddit-posts a:hover{
+    transition: 0.4s ease;
+    color: rgb(144, 116, 150);
+    text-decoration: underline;  
+}
+.reddit-posts:nth-child(1){
+    margin-top:40px;
+}
+.arrows{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.sort-buttons{
+    font-size: 20px;
+    margin-right: 5px;
+    padding: 5px 15px;
+    float: right;
+    background-color: white;
+    border: none;
+    box-shadow: 0px 0px 4px 1px#000000;
+}
+.sort-buttons:hover{
+    background-color: #C590AE;
+    transition: 0.4s ease;
+}
